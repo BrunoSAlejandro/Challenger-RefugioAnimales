@@ -2,7 +2,14 @@ import java.util.Scanner;
 
 public class RefAnimal {
     public static void main(String[] args) {
+
         Scanner sc = new Scanner(System.in);
+        String[] animales = new String[100]; // Array para almacenar los nombres de los animales 
+        int[] edades = new int[100]; // Array para almacenar las edades de los animales
+        String[] especies = new String[100]; // Array para almacenar las especies de los animales
+        String[] estados = new String[100]; // Array para almacenar los estados de los animales
+        int contadorAnimales = 0; // Contador para llevar el número de animales registrados 
+
         System.out.println("================================");
         System.out.println("=========Refugio animal=========");
         System.out.println("================================");
